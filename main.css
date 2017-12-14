@@ -1,0 +1,440 @@
+
+body{
+	padding: 0;
+	margin:0;
+	font-family: 'Lato', sans-serif;
+	background-color: #eceff;
+}
+
+#main-intro-title{
+	padding-top: 20vh;
+}
+.main-page-title{
+	font-family: 'Fredoka One', cursive;
+	font-size: 80px;
+	color:white;
+}
+
+.welcome-container{
+	min-height: 18vh;
+}
+
+.welcome-container p{
+	font-weight: 600;
+}
+
+.title-search-form1{
+	width: 50%;
+	max-height: 20vh;
+	border:2px solid white;
+	background-color: #ffffffa3;
+	border-radius: 30px;
+}
+input[type=date], input[type=datetime-local], input[type=email], input[type=number], input[type=password], input[type=search-md], input[type=search], input[type=tel], input[type=text], input[type=time], input[type=url], textarea.md-textarea{
+	border-bottom: none;
+}
+
+
+
+
+button.btn-teal.m-1.mr-0{
+	border-top-right-radius: 30px;
+	border-bottom-right-radius: 30px;
+}
+
+.hr-style1{
+	border: 0;
+	height: 1px;
+	background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+.hr-style2{
+	border: 0;
+	height: 1px;
+	background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(255, 255, 255, 255), rgba(0, 0, 0, 0));
+}
+
+
+/*...............................................*/
+
+#bg-img-1{
+	background-image: url("bgimg1.png");
+	background-position: center;
+}
+
+#bg-img-2{
+	background-image: url("bgimg2.png");
+	background-position: center;
+}
+
+#bg-img-3{
+	background-image: url("bgimg3.png");
+	background-position: center;
+}
+
+#bg-img-4{
+	background-image: url("bgimg4.png");
+	background-position: center;
+}
+
+#bg-img-5{
+	background-image: url("bgimg5.png");
+	background-position: center;
+}
+
+#bg-img-6{
+	background-image: url("bgimg6.png");
+	background-position: center;
+}
+
+.div-icon-btn{
+	border-radius: 5px;
+	color:white;
+}
+
+
+
+/*...................................................*/
+
+#ParaBox1{
+	min-height:75vh;
+	width: 100%;
+	background-image: url(9b489cca234673f1347575a5b1d5c3c9.jpg);
+	background-size: cover;
+	
+	background-attachment: fixed;
+}
+
+#ParaBox2{
+	height:17vh;
+	width: 100%;
+	background-image: url(9b489cca234673f1347575a5b1d5c3c9.jpg);
+	background-size: cover;
+	
+	background-attachment: fixed;
+}
+
+#ParaBox3{
+	height:40vh;
+	width: 100%;
+	background-image: url(bc4243899835f402bd8c382d444ba241.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;	
+	background-attachment: fixed;
+}
+
+#ParaBox3 h1{
+	font-family: 'Fredoka One', cursive;
+	font-size: 60px;
+}
+
+
+/* ....................Navigation..............*/
+
+
+.navbar-brand{
+	
+	transform: translateX(-50%);
+	left: 50%;
+	position: absolute;
+
+	font-size: 1.7rem;
+}
+
+.navbar {
+	background-color: #ffffff63;
+	font-size: 1.3rem;
+	font-weight: 600;
+}
+
+.scrolling-navbar {
+	-webkit-transition: background .5s ease-in-out, padding .5s ease-in-out;
+	-moz-transition: background .5s ease-in-out, padding .5s ease-in-out;
+	transition: background .5s ease-in-out, padding .5s ease-in-out;
+}
+
+.top-nav-collapse {
+	background-color: #fff;
+}
+
+/*......search bar......*/
+
+input[type=text]:focus:not([readonly]){
+	box-shadow: none;
+}
+
+/*...........*/
+
+@media only screen and (max-width: 768px) {
+	.navbar {
+		background-color: #fff;
+	}
+}
+.navbar .btn-group .dropdown-menu a:hover {
+	color: #000 !important;
+}
+.navbar .btn-group .dropdown-menu a:active {
+	color: #fff !important;
+}
+
+
+input[type=text]{
+	font-size: 1.19rem;
+}
+/*.....color for nav items and brand .......*/
+
+
+.top-nav-collapse.navbar-light .navbar-brand {
+	color: rgb(31, 215, 156);
+}
+
+.top-nav-collapse.navbar.navbar-light .navbar-nav .nav-item .nav-link{
+	color:#1fd79c;
+}
+
+/*................................................*/
+
+
+
+.border-title{
+	border-left: 4px solid #2b8b65;
+
+}
+
+/*................................................*/
+
+/*Carousel */
+
+.card{
+	border-radius: 30px;
+}
+
+.card-background-style-course{
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-image: url(13e1b1eada54150ef5fc11fe8bb74598.png);
+
+}
+
+h4.card-title{
+	font-weight: 800;
+	font-size: 1.6rem;
+}
+
+p.card-text{
+	opacity: 0
+}
+
+div.card-body.card-background-style-course:hover .card-text{
+	background-image: none;
+	transition: .4s;
+	background-color: white;
+	border-radius: 10px;
+	opacity: 1;
+
+}
+
+/*......................................................*/
+
+
+.sub-category-container{
+	text-transform: uppercase;
+	padding-top: 18vh;
+	font-family: 'Fredoka One', cursive;
+
+}
+
+.sub-category-div1{
+	color:white;
+	background-color: #00796b;
+	border-radius: 10px;
+	border-top:5px solid white;
+	border-bottom:5px solid white;
+	border-right:1px solid white;
+	border-left:1px solid white;
+}
+
+
+.category-hover-effect:hover{
+	animation: colorChange 0.3s;
+	animation-timing-function: ease-in;
+	animation-fill-mode: forwards;
+}
+
+@keyframes colorChange{
+	0%{
+		
+	}
+	100%{
+		background-color: white;
+		color:teal;
+		text-decoration-line: underline;
+		text-decoration-color: teal;
+		border-top:5px solid teal;
+		border-bottom:5px solid teal;
+		border-right:1px solid teal;
+		border-left:1px solid teal;
+	}
+}
+
+
+
+/*......................................................*/
+
+
+.card-background-style-quizz{
+	background-size: cover;
+	background-position: center;
+	border-radius: 40px;
+	background-image: url(6e55615c98e0b9b1c4b7b98b8620549c.png);
+
+}
+
+
+
+div.card-body.card-background-style-quizz:hover .card-text{
+	background-image: none;
+	transition: .4s;
+	background-color: white;
+	border-radius: 19px;
+	opacity: 1;
+
+}
+
+.card-background-style-law{
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-image: url(28dcdfe5427f61d23d6def739cd6ebfb.png);
+
+}
+
+
+div.card-body.card-background-style-law:hover .card-text{
+	background-image: none;
+	transition: .4s;
+	background-color: white;
+	border-radius: 19px;
+	opacity: 1;
+
+}
+.card-background-style-science{
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-image: url(e0ad24418619b65ce1e6af58728f57c6.png);
+
+}
+
+
+div.card-body.card-background-style-science:hover .card-text{
+	background-image: none;
+	transition: .4s;
+	background-color: white;
+	border-radius: 19px;
+	opacity: 1;
+
+}
+
+a.btn-md.carousel-btn-style{
+	border-radius: 50%;
+}
+
+/*...... owl buttons and dots .....*/
+
+.owl-theme .owl-dots{
+	visibility: hidden;
+}
+
+.owl-theme .owl-nav{
+	margin:0;
+}
+
+.owl-theme .owl-nav [class*=owl-] {
+	background:#1976d2;
+}
+
+.owl-theme .owl-nav [class*=owl-]:hover{
+	background:#2d95fb;
+}
+
+/*.....................................*/
+
+
+/*........Footer ............*/
+
+
+.footer-style1{
+
+	background-image: linear-gradient(-225deg, #008242 0%, #01d96f 48%, #388e3c 100%);
+
+}
+
+
+
+
+footer.page-footer {
+	background-color: #2b3f66;
+	margin-top: 0;
+	font-family: 'Lato', sans-serif;
+
+}
+
+
+.card-header,
+.card-footer{
+	background-image: linear-gradient(to right, #1fdd98 0%, #1ba7bc 100%);
+}
+
+/*..............Description Box................*/
+
+
+div.description-box1 img{
+	display: block;
+	width: 5rem;
+	height: 5rem;
+	margin: auto;
+}
+
+div.description-box2 img{
+	display: block;
+	width: 5rem;
+	height: 5rem;
+	margin: auto;
+}
+
+@keyframes scaleImg{
+	0%{ width: 5rem; height: 5rem; }
+	50%{ width: 6rem; height: 6rem; }
+	100%{ width: 9rem; height:9rem; }
+}
+
+div.description-box1 img:hover{
+	animation: scaleImg 1s;
+	animation-fill-mode: forwards;
+	animation-timing-function: ease;
+}
+
+div.description-box2 img:hover{
+	animation: scaleImg 1s;
+	animation-fill-mode: forwards;
+	animation-timing-function: ease;
+}
+
+
+.create-quiz-box{
+	border-radius: 17px;
+	border:10px solid #25c6ac;
+	background-color: #e3f2fd;
+	min-height: 15rem;
+}
+
+.create-quiz-box h3{
+	font-size: 40px;
+	font-weight: 600;
+}	
+
+
+/*..................................................*/
